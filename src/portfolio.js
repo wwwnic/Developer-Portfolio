@@ -196,38 +196,31 @@ const certifications = {
 // Blogs Section
 
 const blogSection = {
-  title: "Blogs",
+  title: "Blogues",
   subtitle:
-    "With Love for Developing cool stuff, I love to write and teach others what I have learnt.",
+    "Avec l'amour de développer des choses cool, j'aime écrire et enseigner aux autres ce que j'ai appris.",
 
   blogs: [
     {
       url:
-        "https://blog.bharatkammakatla.com/selenium-python-automation-framework-how-to-build-cke5vij9p012h9ds1fsaocyax",
-      title: "How to build a Selenium Python Automation Framework",
+        "https://syslog.dti.crosemont.quebec/node/325",
+      title: "AUTOMATISEZ LE DÉPLOIEMENT DE VOS CONTENEURS AVEC AMAZON ECS",
       description:
-        "Interested in building a test automation framework with selenium and python? If so, check out here !",
+        "Orchestration automatisée de conteneurs, déploiement et de la gestion d'applications conteneurisées, tout y est !",
     },
     {
       url:
-        "https://blog.bharatkammakatla.com/steps-to-build-a-selenium-java-framework-ckdsi73xg005ga9s1defhemfz",
-      title: "Steps to build a Selenium Java Automation Framework",
+        "https://syslog.dti.crosemont.quebec/node/260",
+      title: "STOCKAGE DE DONNÉES AVEC AMAZON S3",
       description:
-        "Interested in building a test automation framework with selenium and java? If so, check out here !",
+        "Qu'est ce qu'Amazon S3, Amazon S3 Standard, Amazon Glacier (Archive)? Qu'elles sont les autres possibilités ?",
     },
     {
       url:
-        "https://blog.bharatkammakatla.com/face-expression-recognition-using-keras-and-cnns-ckbevmufo0195dis1dfs10kt1",
-      title: "Building a Machine Learning model to detect human emotions",
+        "https://syslog.dti.crosemont.quebec/node/235",
+      title: "LES AVANTAGES D'UTILISER AMAZON EC2",
       description:
-        "Are you interested to know how machines detect human emotions? If so, check out here !",
-    },
-    {
-      url:
-        "https://medium.com/@bharatkammakatla/basic-end-to-end-scikit-learn-workflow-cd9e9a50491b?source=friends_link&sk=b828ac262c172abd7508efcbd00e5bd3",
-      title: "Basic End-to-End Scikit-Learn workflow",
-      description:
-        "Do you want to know how a basic end-to-end scikit-learn workflow is implemented ? If so, check out here !",
+        "Comment l'informatique dématérialisée permet-elle d'économiser de l'argent ? !",
     },
   ],
 };
