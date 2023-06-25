@@ -19,7 +19,6 @@ const greeting = {
 const socialMediaLinks = {
   github: "https://github.com/wwwnic",
   linkedin: "https://www.linkedin.com/in/brunet-nicolas/",
-  gmail: "brunet.nicolas@outlook.com",
   facebook: "https://www.facebook.com/nicolasbrunet.qc",
 };
 
@@ -29,14 +28,14 @@ const skillsSection = {
   title: "Mes compétences",
   subTitle: "DÉVELOPPEMENT WEB, DÉVELOPPEMENT MOBILE ET LES TECHNOLOGIES CONNEXES",
   skills: [
-    emoji(
-      "⚡ Conception d'application Web et Android avec Java, Angular et C#/.NET"
-    ),
-    emoji("⚡ Développement de tests unitaires automatisés avec JUnit ou équivalent"),
-    emoji(
-      "⚡ Déploiement des services avec Docker ou des machines virtuelles"
-    )
+    emoji("💻  Conception d'applications Web et Android avec Java, Angular et C#/.NET"),
+    emoji("🧩  Utilisation de patrons de conception modernes et réputés dans le domaine"),
+    emoji("⚡  Développement de tests unitaires automatisés avec JUnit ou équivalent"),
+    emoji("🚀  Déploiement de services avec Docker ou des machines virtuelles"),
+    emoji("🎧  Calme, patient et à l'écoute des besoins, capacité à vulgariser les concepts")
   ],
+
+
 
 softwareSkills: [
     {
@@ -181,13 +180,13 @@ const certifications = {
   certifications: [
     {
 		
-      title: "Selenium",
-      subtitle: "- Vskills",
-      logo_path: "vskills-logo.png",
+      title: "Cisco Networking Academy®",
+      subtitle: "Introduction à la cybersécurité",
+      logo_path: "cisco.png",
       certificate_link:
-        "https://www.vskills.in/certification/40215-certified-selenium-professional-bharat-babu-kammakatla",
-      alt_name: "Vskills",
-      color_code: "#F6EAEA",
+        "https://drive.google.com/file/d/1ZpRMSjHx4a7l3YDEzt4UDJcRZt-fc26_/view?usp=sharing",
+      alt_name: "Introduction à la cybersécurité",
+      color_code: "#00bceb",
     },
 
   ],
@@ -196,9 +195,9 @@ const certifications = {
 // Blogs Section
 
 const blogSection = {
-  title: "Blogues",
+  title: "Blogs",
   subtitle:
-    "Avec l'amour de développer des choses cool, j'aime écrire et enseigner aux autres ce que j'ai appris.",
+    "Avec l'amour de développer et déployer des choses cool, j'aime écrire et enseigner aux autres ce que j'ai appris.",
 
   blogs: [
     {
