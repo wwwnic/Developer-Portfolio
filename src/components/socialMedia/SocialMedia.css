@@ -53,9 +53,15 @@
   background-color: #c13584;
 }
 
+.outlook i {
+  background-color: #0072c6;
+}
+
+
 /* Hover Transition */
 .twitter i:hover,
 .google i:hover,
+.outlook i:hover,
 .gitlab i:hover,
 .github i:hover,
 .linkedin i:hover,
