@@ -20,24 +20,32 @@ const socialMediaLinks = {
   github: "https://github.com/wwwnic",
   linkedin: "https://www.linkedin.com/in/brunet-nicolas/",
   facebook: "https://www.facebook.com/nicolasbrunet.qc",
+  outlook: "brunet.nicolas@outlook.com",
 };
 
 // Your Skills Section
 
 const skillsSection = {
   title: "Mes compétences",
-  subTitle: "DÉVELOPPEMENT WEB, DÉVELOPPEMENT MOBILE ET LES TECHNOLOGIES CONNEXES",
+  subTitle:
+    "DÉVELOPPEMENT WEB, DÉVELOPPEMENT MOBILE ET LES TECHNOLOGIES CONNEXES",
   skills: [
-    emoji("💻  Conception d'applications Web et Android avec Java, Angular et C#/.NET"),
-    emoji("🧩  Utilisation de patrons de conception modernes et réputés dans le domaine"),
-    emoji("⚡  Développement de tests unitaires automatisés avec JUnit ou équivalent"),
+    emoji(
+      "💻  Conception d'applications Web et Android avec Java, Angular et C#/.NET"
+    ),
+    emoji(
+      "🧩  Utilisation de patrons de conception modernes et réputés dans le domaine"
+    ),
+    emoji(
+      "⚡  Développement de tests unitaires automatisés avec JUnit ou équivalent"
+    ),
     emoji("🚀  Déploiement de services avec Docker ou des machines virtuelles"),
-    emoji("🎧  Calme, patient et à l'écoute des besoins, capacité à vulgariser les concepts")
+    emoji(
+      "🎧  Calme, patient et à l'écoute des besoins, capacité à vulgariser les concepts"
+    ),
   ],
 
-
-
-softwareSkills: [
+  softwareSkills: [
     {
       skillName: "Java",
       classname: "logos:java",
@@ -110,7 +118,7 @@ softwareSkills: [
     },
     {
       skillName: "et plus",
-      classname: "heroicons:plus-20-solid" ,
+      classname: "heroicons:plus-20-solid",
       style: {
         color: "#080",
         backgroundColor: "transparent",
@@ -118,10 +126,6 @@ softwareSkills: [
     },
   ],
 };
-
-
-
-
 
 // Your top 3 work experiences
 
@@ -150,21 +154,19 @@ const workExperiences = {
       company: "Habitations communautaires Loggia",
       companylogo: require("./assets/images/loggia.png"),
       date: "mai 2018 – déc. 2022",
-	  desc: "Entretien des propriétés, services aux résidents, peinture",
+      desc: "Entretien des propriétés, services aux résidents, peinture",
       descBullets: [
-	    "Préparation des logements pour les nouveaux locataires",
+        "Préparation des logements pour les nouveaux locataires",
         "Organisation des lieux pour des événements spéciaux",
         "Fournir un excellent service aux résidents",
         "Réparations diverses dans les logements",
-	    "Peinture intérieure et extérieure",
-		"Soutien technique occasionnel",
+        "Peinture intérieure et extérieure",
+        "Soutien technique occasionnel",
         "Entretien des lieux",
       ],
     },
   ],
 };
-
-
 
 /* Your Open Source Section to View Your Github Pinned Projects
 To know how to get github key look at readme.md */
@@ -179,7 +181,6 @@ const openSource = {
 const certifications = {
   certifications: [
     {
-		
       title: "Cisco Networking Academy®",
       subtitle: "Introduction à la cybersécurité",
       logo_path: "cisco.png",
@@ -189,7 +190,6 @@ const certifications = {
       color_code: "#e6e6e6 ",
     },
     {
-		
       title: "LinkedIn Learning®",
       subtitle: "L'essentiel de Docker",
       logo_path: "linkedInLearning.png",
@@ -210,22 +210,19 @@ const blogSection = {
 
   blogs: [
     {
-      url:
-        "https://syslog.dti.crosemont.quebec/node/325",
+      url: "https://syslog.dti.crosemont.quebec/node/325",
       title: "AUTOMATISEZ LE DÉPLOIEMENT DE VOS CONTENEURS AVEC AMAZON ECS",
       description:
         "Orchestration automatisée de conteneurs, déploiement et de la gestion d'applications conteneurisées, tout y est !",
     },
     {
-      url:
-        "https://syslog.dti.crosemont.quebec/node/260",
+      url: "https://syslog.dti.crosemont.quebec/node/260",
       title: "STOCKAGE DE DONNÉES AVEC AMAZON S3",
       description:
         "Qu'est ce qu'Amazon S3, Amazon S3 Standard, Amazon Glacier (Archive)? Qu'elles sont les autres possibilités ?",
     },
     {
-      url:
-        "https://syslog.dti.crosemont.quebec/node/235",
+      url: "https://syslog.dti.crosemont.quebec/node/235",
       title: "LES AVANTAGES D'UTILISER AMAZON EC2",
       description:
         "Comment l'informatique dématérialisée permet-elle d'économiser de l'argent ? !",
@@ -235,8 +232,7 @@ const blogSection = {
 
 const contactInfo = {
   title: emoji("Me contacter ❤️"),
-  subtitle:
-    "ma boîte de réception est un espace accueillant ouvert à tous !",
+  subtitle: "ma boîte de réception est un espace accueillant ouvert à tous !",
   number: "+1 (514) 572-4393",
   email_address: "brunet.nicolas@outlook.com",
 };
