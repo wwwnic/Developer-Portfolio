@@ -6,7 +6,7 @@ import emoji from "react-easy-emoji";
 
 const greeting = {
   username: "Nicolas Brunet	",
-  title: "Salut, je suis Nicolas !",
+  title: "Bonjour, Je suis Nicolas !",
   subTitle: emoji(
     "Développeur .NET/C# Junior 👨‍💻 | Compétences en développement Web 🌐, développement d'applications mobiles 📱, Docker 🐳, SQL 🗄️ et Git 📂"
   ),
@@ -186,9 +186,18 @@ const certifications = {
       certificate_link:
         "https://drive.google.com/file/d/1ZpRMSjHx4a7l3YDEzt4UDJcRZt-fc26_/view?usp=sharing",
       alt_name: "Introduction à la cybersécurité",
-      color_code: "#00bceb",
+      color_code: "#e6e6e6 ",
     },
-
+    {
+		
+      title: "LinkedIn Learning®",
+      subtitle: "L'essentiel de Docker",
+      logo_path: "linkedInLearning.png",
+      certificate_link:
+        "https://www.linkedin.com/learning/certificates/8830c6ec23398005c1f86f27906ea0a3b3d27b6550bf68ac96caab0d625e0fbe",
+      alt_name: "L'essentiel de Docker",
+      color_code: "#e6e6e6 ",
+    },
   ],
 };
 
