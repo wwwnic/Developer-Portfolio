@@ -28,22 +28,17 @@ const socialMediaLinks = {
 const skillsSection = {
   title: "Mes compétences",
   subTitle:
-    "DÉVELOPPEMENT WEB, DÉVELOPPEMENT MOBILE ET LES TECHNOLOGIES CONNEXES",
+    "DÉVELOPPEUR POLYVALENT, ENGAGÉ ET TOUJOURS EN QUÊTE DE CONNAISSANCE",
   skills: [
-    emoji(
-      "💻  Conception d'applications Web et Android avec Java, Angular et C#/.NET"
-    ),
-    emoji(
-      "🧩  Utilisation de patrons de conception modernes et réputés dans le domaine"
-    ),
-    emoji(
-      "⚡  Développement de tests unitaires automatisés avec JUnit ou équivalent"
-    ),
+    emoji("💻  Conception d'applications Web avec Java, Angular et C#/.NET"),
+	emoji("📱  Conception d'application mobile intuitive avec Kotlin"),
+    emoji("🧩  Utilisation de patrons de conception modernes et réputés dans le domaine"),
+    emoji("⚡  Développement de tests unitaires automatisés avec JUnit ou équivalent"),
     emoji("🚀  Déploiement de services avec Docker ou des machines virtuelles"),
-    emoji(
-      "🎧  Calme, patient et à l'écoute des besoins, capacité à vulgariser les concepts"
-    ),
+    emoji("🎧  Calme, patient et à l'écoute des besoins, capacité à vulgariser les concepts"),
+    emoji("🌱  En constante évolution et toujours avide d'apprendre de nouvelles technologies"),
   ],
+
 
   softwareSkills: [
     {

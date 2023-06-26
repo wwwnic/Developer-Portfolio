@@ -23,7 +23,7 @@ function Header() {
           </li>
           { exp === true &&
             <li>
-              <a href="#experience">Experiences Professionnelles</a>
+              <a href="#experience">Expériences Professionnelles</a>
             </li>
           }
           <li>
