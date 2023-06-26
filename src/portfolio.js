@@ -6,7 +6,7 @@ import emoji from "react-easy-emoji";
 
 const greeting = {
   username: "Nicolas Brunet	",
-  title: "Bonjour, Je suis Nicolas !",
+  title: "Bonjour, je suis Nicolas !",
   subTitle: emoji(
     "Développeur .NET/C# Junior 👨‍💻 | Compétences en développement Web 🌐, développement d'applications mobiles 📱, Docker 🐳, SQL 🗄️ et Git 📂"
   ),
