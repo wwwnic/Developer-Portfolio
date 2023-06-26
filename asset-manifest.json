@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.4a0357e2.css",
-    "main.js": "/static/js/main.beda82f5.js",
+    "main.js": "/static/js/main.b536b919.js",
     "static/css/198.9c95ba66.chunk.css": "/static/css/198.9c95ba66.chunk.css",
     "static/js/198.19ef848a.chunk.js": "/static/js/198.19ef848a.chunk.js",
     "static/css/59.7caa9f09.chunk.css": "/static/css/59.7caa9f09.chunk.css",
@@ -12,7 +12,6 @@
     "static/media/manOnTable.png": "/static/media/manOnTable.bd09bfac676b035b1b60.png",
     "static/media/Montserrat-Regular.ttf": "/static/media/Montserrat-Regular.3cd786652b8a2e9d41f2.ttf",
     "static/media/Agustina.woff": "/static/media/Agustina.eb0c59dda4cc308cba96.woff",
-    "static/media/tumbnail.png": "/static/media/tumbnail.032259ee38d24c2fdc02.png",
     "static/media/loggia.png": "/static/media/loggia.42116c5dfc2fcca9553f.png",
     "static/media/azurdev.png": "/static/media/azurdev.d51d0a9fdfe1ac0c8117.png",
     "static/media/cisco.png": "/static/media/cisco.b86b9cc34a1b081a5529.png",
@@ -20,7 +19,7 @@
     "index.html": "/index.html",
     "static/media/logo.svg": "/static/media/logo.2e689850515ec869ae3abc76f9e68f31.svg",
     "main.4a0357e2.css.map": "/static/css/main.4a0357e2.css.map",
-    "main.beda82f5.js.map": "/static/js/main.beda82f5.js.map",
+    "main.b536b919.js.map": "/static/js/main.b536b919.js.map",
     "198.9c95ba66.chunk.css.map": "/static/css/198.9c95ba66.chunk.css.map",
     "198.19ef848a.chunk.js.map": "/static/js/198.19ef848a.chunk.js.map",
     "59.7caa9f09.chunk.css.map": "/static/css/59.7caa9f09.chunk.css.map",
@@ -28,6 +27,6 @@
   },
   "entrypoints": [
     "static/css/main.4a0357e2.css",
-    "static/js/main.beda82f5.js"
+    "static/js/main.b536b919.js"
   ]
 }
