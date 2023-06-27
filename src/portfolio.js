@@ -19,7 +19,7 @@ const greeting = {
 const socialMediaLinks = {
   github: "https://github.com/wwwnic",
   linkedin: "https://www.linkedin.com/in/brunet-nicolas/",
-  facebook: "https://www.facebook.com/nicolasbrunet.qc",
+  //facebook: "https://www.facebook.com/nicolasbrunet.qc",
   outlook: "brunet.nicolas@outlook.com",
 };
 
