@@ -193,6 +193,15 @@ const certifications = {
       alt_name: "L'essentiel de Docker",
       color_code: "#e6e6e6 ",
     },
+	    {
+      title: "LinkedIn Learning®",
+      subtitle: "Sécuriser son site avec un certificat SSL",
+      logo_path: "linkedInLearning.png",
+      certificate_link:
+        "https://www.linkedin.com/learning/certificates/29c79d50dfaf51d3cccbc13de583edb245c7bfe8a608cea9da787a38ad5d8629",
+      alt_name: "Sécuriser son site avec un certificat SSL",
+      color_code: "#e6e6e6 ",
+    },
   ],
 };
 
