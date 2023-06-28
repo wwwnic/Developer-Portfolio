@@ -176,7 +176,7 @@ const openSource = {
 const certifications = {
   certifications: [
     {
-      title: "Cisco Networking Academy®",
+      title: "Cisco Networking Academy (2021)",
       subtitle: "Introduction à la cybersécurité",
       logo_path: "cisco.png",
       certificate_link:
@@ -185,7 +185,7 @@ const certifications = {
       color_code: "#e6e6e6 ",
     },
     {
-      title: "LinkedIn Learning®",
+      title: "LinkedIn Learning (2023)",
       subtitle: "L'essentiel de Docker",
       logo_path: "linkedInLearning.png",
       certificate_link:
@@ -193,13 +193,31 @@ const certifications = {
       alt_name: "L'essentiel de Docker",
       color_code: "#e6e6e6 ",
     },
-	    {
-      title: "LinkedIn Learning®",
+	{
+      title: "LinkedIn Learning (2023)",
       subtitle: "Sécuriser son site avec un certificat SSL",
       logo_path: "linkedInLearning.png",
       certificate_link:
         "https://www.linkedin.com/learning/certificates/29c79d50dfaf51d3cccbc13de583edb245c7bfe8a608cea9da787a38ad5d8629",
       alt_name: "Sécuriser son site avec un certificat SSL",
+      color_code: "#e6e6e6 ",
+    },
+	{
+      title: "LinkedIn Learning (2023)",
+      subtitle: "Sécuriser avec JSON Web Token (JWT)",
+      logo_path: "linkedInLearning.png",
+      certificate_link:
+        "https://www.linkedin.com/learning/certificates/8c3b1c81eca5e6e32f983d8c46287793dd8688d9072ab297b01ef0d18dffdfbe",
+      alt_name: "Sécuriser avec JSON Web Token (JWT)",
+      color_code: "#e6e6e6 ",
+    },
+	{
+      title: "LinkedIn Learning (2023)",
+      subtitle: "L'essentiel de .NET 7",
+      logo_path: "linkedInLearning.png",
+      certificate_link:
+        "https://www.linkedin.com/learning/certificates/801d2f6b3348b5c23030bcf616f69d032e56d8dfe25898a0937b89764cee5cf4",
+      alt_name: "L'essentiel de .NET 7",
       color_code: "#e6e6e6 ",
     },
   ],
