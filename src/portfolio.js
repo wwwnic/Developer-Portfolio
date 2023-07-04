@@ -8,10 +8,10 @@ const greeting = {
   username: "Nicolas Brunet	",
   title: "Bonjour, je suis Nicolas !",
   subTitle: emoji(
-    "Développeur .NET/C# Junior 👨‍💻 | Compétences en développement Web 🌐, développement d'applications mobiles 📱, Docker 🐳, SQL 🗄️ et Git 📂"
+    "Développeur .NET/C# 👨‍💻, compétences en développement web 🌐, développement d'applications mobiles 📱, Docker 🐳, SQL 🗄️ et Git 📂"
   ),
   resumeLink:
-    "https://drive.google.com/file/d/13kLjcPa_BXeRU4lUYt03VoD02KOlxssK/view?usp=sharing",
+    "https://drive.google.com/file/d/1Kqs4-NE8US-qOxSKPNvVq4lsGJ5Dc_rq/view?usp=sharing",
 };
 
 // Your Social Media Link
@@ -31,7 +31,8 @@ const skillsSection = {
     "DÉVELOPPEUR POLYVALENT, ENGAGÉ ET TOUJOURS EN QUÊTE DE CONNAISSANCE",
   skills: [
     emoji("💻  Conception d'applications Web avec Java, Angular et C#/.NET"),
-	emoji("📱  Conception d'application mobile intuitive avec Kotlin"),
+    emoji("📱  Conception d'application mobile intuitive avec Kotlin"),
+    emoji("🗃️  Conception et maniment de bases de données SQL à des fins applicatives"),
     emoji("🧩  Utilisation de patrons de conception modernes et réputés dans le domaine"),
     emoji("⚡  Développement de tests unitaires automatisés avec JUnit ou équivalent"),
     emoji("🚀  Déploiement de services avec Docker ou des machines virtuelles"),
@@ -128,7 +129,7 @@ const workExperiences = {
   viewExperiences: true,
   experience: [
     {
-      role: "Développeur JavaScript",
+      role: "Programmeur-Analyste",
       company: "AzurDev",
       companylogo: require("./assets/images/azurdev.png"),
       date: "mars 2023 – mai 2023",
@@ -145,21 +146,22 @@ const workExperiences = {
       ],
     },
     {
-      role: "Préposé aux travaux",
-      company: "Habitations communautaires Loggia",
-      companylogo: require("./assets/images/loggia.png"),
-      date: "mai 2018 – déc. 2022",
-      desc: "Entretien des propriétés, services aux résidents, peinture",
-      descBullets: [
-        "Préparation des logements pour les nouveaux locataires",
-        "Organisation des lieux pour des événements spéciaux",
-        "Fournir un excellent service aux résidents",
-        "Réparations diverses dans les logements",
-        "Peinture intérieure et extérieure",
-        "Soutien technique occasionnel",
-        "Entretien des lieux",
-      ],
-    },
+      role: "Technique en informatique",
+	  company: "Collège de Rosemont",
+	  companylogo: require("./assets/images/crosemont.png"),
+	  date: "août 2020 – juin 2023",
+	  desc: "Développement web et mobile",
+	  descBullets: [
+		"Développement web et microservice",
+		"Développement mobile",
+		"Méthodologie Agile",
+		"Test unitaire",
+		"Jeux vidéo",
+		"Docker",
+		"Git",
+		"SQL",
+	  ],
+	},
   ],
 };
 
@@ -175,6 +177,42 @@ const openSource = {
 
 const certifications = {
   certifications: [
+  	{
+      title: "LinkedIn Learning (2023)",
+      subtitle: "L'essentiel de .NET 7",
+      logo_path: "linkedInLearning.png",
+      certificate_link:
+        "https://www.linkedin.com/learning/certificates/801d2f6b3348b5c23030bcf616f69d032e56d8dfe25898a0937b89764cee5cf4",
+      alt_name: "L'essentiel de .NET 7",
+      color_code: "#e6e6e6 ",
+    },
+	{
+      title: "LinkedIn Learning (2023)",
+      subtitle: "Tests unitaires et développement dirigé par les tests",
+      logo_path: "linkedInLearning.png",
+      certificate_link:
+        "https://www.linkedin.com/learning/certificates/9f4a1ee294dbf32144832e1cabfdbec237d6b54920fe6117ffc78fb20baa7f23",
+      alt_name: "Tests unitaires et développement dirigé par les tests",
+      color_code: "#e6e6e6 ",
+    },
+  	{
+      title: "LinkedIn Learning (2023)",
+      subtitle: "MySQL : Les procédures stockées et les triggers",
+      logo_path: "linkedInLearning.png",
+      certificate_link:
+        "https://www.linkedin.com/learning/certificates/379871d5fc7b924e212e13b26763273f8996a5e8829d48965d8d2d1dfd347544",
+      alt_name: "MySQL : Les procédures stockées et les triggers",
+      color_code: "#e6e6e6 ",
+    },
+	{
+      title: "LinkedIn Learning (2023)",
+      subtitle: "L'essentiel de Docker",
+      logo_path: "linkedInLearning.png",
+      certificate_link:
+        "https://www.linkedin.com/learning/certificates/8830c6ec23398005c1f86f27906ea0a3b3d27b6550bf68ac96caab0d625e0fbe",
+      alt_name: "L'essentiel de Docker",
+      color_code: "#e6e6e6 ",
+    },
     {
       title: "Cisco Networking Academy (2021)",
       subtitle: "Introduction à la cybersécurité",
@@ -182,15 +220,6 @@ const certifications = {
       certificate_link:
         "https://drive.google.com/file/d/1ZpRMSjHx4a7l3YDEzt4UDJcRZt-fc26_/view?usp=sharing",
       alt_name: "Introduction à la cybersécurité",
-      color_code: "#e6e6e6 ",
-    },
-    {
-      title: "LinkedIn Learning (2023)",
-      subtitle: "L'essentiel de Docker",
-      logo_path: "linkedInLearning.png",
-      certificate_link:
-        "https://www.linkedin.com/learning/certificates/8830c6ec23398005c1f86f27906ea0a3b3d27b6550bf68ac96caab0d625e0fbe",
-      alt_name: "L'essentiel de Docker",
       color_code: "#e6e6e6 ",
     },
 	{
@@ -209,15 +238,6 @@ const certifications = {
       certificate_link:
         "https://www.linkedin.com/learning/certificates/8c3b1c81eca5e6e32f983d8c46287793dd8688d9072ab297b01ef0d18dffdfbe",
       alt_name: "Sécuriser avec JSON Web Token (JWT)",
-      color_code: "#e6e6e6 ",
-    },
-	{
-      title: "LinkedIn Learning (2023)",
-      subtitle: "L'essentiel de .NET 7",
-      logo_path: "linkedInLearning.png",
-      certificate_link:
-        "https://www.linkedin.com/learning/certificates/801d2f6b3348b5c23030bcf616f69d032e56d8dfe25898a0937b89764cee5cf4",
-      alt_name: "L'essentiel de .NET 7",
       color_code: "#e6e6e6 ",
     },
   ],
