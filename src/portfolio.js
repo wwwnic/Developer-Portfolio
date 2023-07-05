@@ -11,7 +11,7 @@ const greeting = {
     "Développeur .NET/C# 👨‍💻, compétences en développement web 🌐, développement d'applications mobiles 📱, Docker 🐳, SQL 🗄️ et Git 📂"
   ),
   resumeLink:
-    "https://drive.google.com/file/d/1Kqs4-NE8US-qOxSKPNvVq4lsGJ5Dc_rq/view?usp=sharing",
+    "https://drive.google.com/file/d/13uOYGZERbW85QLy5t3L5EJ1l0p5jWSHb/view?usp=sharing",
 };
 
 // Your Social Media Link
